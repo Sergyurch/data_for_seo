@@ -18,13 +18,17 @@ How to run the project.
 
     npm run build
 
-6. Copy .env.example to .env and update it with your DataForSEO credentials:
+5. Copy .env.example to .env and update it with your DataForSEO credentials:
 
    DATAFORSEO_LOGIN=your_login@email.com
 
    DATAFORSEO_PASSWORD=your_api_password
 
    DATAFORSEO_API_BASE=https://api.dataforseo.com
+
+6. Generate application key
+
+   php artisan key:generate
 
 8. Start the development server:
 
