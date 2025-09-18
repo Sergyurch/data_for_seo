@@ -18,7 +18,7 @@ How to run the project.
 
     npm run build
 
-5. Copy .env.example to .env and update it with your DataForSEO credentials:
+5. Copy .env.example to .env, configure your database and update the file with your DataForSEO credentials:
 
    DATAFORSEO_LOGIN=your_login@email.com
 
